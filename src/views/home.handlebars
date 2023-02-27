@@ -1,0 +1,9 @@
+{{!-- Elementos a mostrar en el body.. Mostrar componentes --}}
+<h1>Hola {{user.nombre}}</h1>
+{{> count}} {{!-- Importar --}}
+
+{{#if have18}} {{!-- Handlebars solo utiliza booleanos --}}
+    <p>Sos mayor de edad</p>
+{{else}}
+    <p>Sos menor de edad</p>
+{{/if}}

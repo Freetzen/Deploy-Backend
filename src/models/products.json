@@ -1,0 +1,4 @@
+[{"title":"Pubg","description":"acción","price":600,"status":true,"thumbnail":["./img/p2.jpg"],"code":"PB2","stock":20,"id":1},
+{"title":"Counter Strike 2","description":"accion","price":900,"status":true,"thumbnail":["./img/cs2.jpg"],"code":"CS2","stock":180,"id":2},
+{"title":"Resident Evil 8","description":"terror","price":1000,"status":true,"thumbnail":["./img/re8.jpg"],"code":"RE8","stock":100,"id":3},
+{"title":"Destiny 3","description":"accion","price":1400,"status":true,"thumbnail":["./img/destiny3.png"],"code":"D3","stock":200,"id":4}]

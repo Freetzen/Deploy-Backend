@@ -1,0 +1,40 @@
+<form id="realTimeProductsForm" class="formularioAddProduct">
+  <div class="form-group">
+    <label for="formTitle">Title</label>
+    <input type="text" class="form-control" id="formTitle">
+  </div>
+  <div class="form-group">
+    <label for="formDescription">Description</label>
+    <input type="text" class="form-control" id="formDescription">
+  </div>
+  <div class="form-group">
+    <label for="formPrice">Price</label>
+    <input type="number" class="form-control" id="formPrice">
+  </div>
+  <div class="form-group">
+    <label for="formThumbnail">Thumbnail (example: ./img/nombreImagen.jpg)</label>
+    <input type="text" class="form-control" id="formThumbnail">
+  </div>
+  <div class="form-group">
+    <label for="formCode">Code</label>
+    <input type="text" class="form-control" id="formCode">
+  </div>
+  <div class="form-group">
+    <label for="formStock">Stock</label>
+    <input type="number" class="form-control" id="formStock">
+  </div>
+  <div class="form-group">
+    <label for="formCategory">Category</label>
+    <input type="text" class="form-control" id="formCategory">
+  </div>
+
+  <button type="submit" class="btn btn-primary">Agregar</button>
+</form>
+
+<div class="productsCardsContainer">
+        <div id="productsCard" class="productsCardClass row">
+        </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.0/socket.io.js" integrity="sha512-rwu37NnL8piEGiFhe2c5j4GahN+gFsIn9k/0hkRY44iz0pc81tBNaUN56qF8X4fy+5pgAAgYi2C9FXdetne5sQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="js/main.js"></script> {{!-- Están acá para que al conectarse con la ruta raiz no conecte con websockets, por como lo pide la consigna --}}
+
+</div>
